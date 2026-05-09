@@ -1,0 +1,27 @@
+div{
+
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 100px; width: 100px;
+    background-color: brown;
+    translate: -150px 100px;
+    animation: heartbeat 7.5s ease infinite; 
+    
+
+}
+
+@keyframes heartbeat
+{
+    0%{translate: -150px 100px;}
+    10%{translate: 100px 300px;}
+    20%{translate: 200px 100px;}
+    30%{translate: 300px 400px;}
+    40%{translate: 400px 50px;}
+    50%{translate: 600px 450px;}
+    60%{translate: 750px 100px;}
+    70%{translate: 850px 350px;}
+    80%{translate: 950px 150px}
+    90%{translate: 1050px 300px;}
+    100%{translate: 1300px 250px;}
+
+}
